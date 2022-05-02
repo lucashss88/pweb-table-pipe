@@ -36,7 +36,7 @@
 
   <ng-container matColumnDef="telefone">
     <mat-header-cell *matHeaderCellDef>Telefone</mat-header-cell>
-    <mat-cell *matCellDef="let item">{{item.telefone}}</mat-cell>
+    <mat-cell *matCellDef="let item">{{item.telefone | telefonePipe}}</mat-cell>
   </ng-container>
 
   <ng-container matColumnDef="acoes">
