@@ -21,7 +21,7 @@
 
   <ng-container matColumnDef="nome">
     <mat-header-cell *matHeaderCellDef>Nome</mat-header-cell>
-    <mat-cell *matCellDef="let item">{{item.nome}}</mat-cell>
+    <mat-cell *matCellDef="let item">{{item.nome | letraMaiuscula}}</mat-cell>
   </ng-container>
 
   <ng-container matColumnDef="cpf">
@@ -32,6 +32,11 @@
   <ng-container matColumnDef="idade">
     <mat-header-cell *matHeaderCellDef>Idade</mat-header-cell>
     <mat-cell *matCellDef="let item">{{item.idade}}</mat-cell>
+  </ng-container>
+
+  <ng-container matColumnDef="telefone">
+    <mat-header-cell *matHeaderCellDef>Telefone</mat-header-cell>
+    <mat-cell *matCellDef="let item">{{item.telefone}}</mat-cell>
   </ng-container>
 
   <ng-container matColumnDef="acoes">

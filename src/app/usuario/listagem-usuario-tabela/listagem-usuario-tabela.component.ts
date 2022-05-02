@@ -11,7 +11,7 @@ import {MatTableDataSource} from '@angular/material/table';
 export class ListagemUsuarioTabelaComponent implements OnInit {
 
   dataSource: MatTableDataSource<Usuario>;
-  mostrarColunas = ['nome', 'cpf', 'idade', 'acoes'];
+  mostrarColunas = ['nome', 'cpf', 'idade', 'telefone', 'acoes'];
 
   constructor(private usuarioService: UsuarioService) {
   }
