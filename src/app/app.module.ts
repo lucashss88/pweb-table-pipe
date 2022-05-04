@@ -14,6 +14,9 @@ import {UsuarioModule} from './usuario/usuario.module';
 import {LayoutModule} from './layout/layout.module';
 import {HttpClientModule} from '@angular/common/http';
 import {PipesModule} from './shared/pipes/pipes.module';
+import {FirestoreModule} from './firestore/firestore.module';
+
+
 
 @NgModule({
     declarations: [
@@ -32,7 +35,8 @@ import {PipesModule} from './shared/pipes/pipes.module';
         MatIconModule,
         UsuarioModule,
         HttpClientModule,
-        PipesModule
+        PipesModule,
+        FirestoreModule
     ],
     providers: [],
     exports: [
