@@ -26,7 +26,7 @@ export class ListagemUsuarioTabelaComponent implements OnInit {
     this.dataSource.filter = texto.trim().toLowerCase();
   }
 
-  apagar(id: number): void {
+  /*apagar(id: number): void {
     this.usuarioService.remover(id).subscribe(
       apagado => {
         const indx = this.dataSource.data.findIndex(usuario => usuario.id === id);
@@ -36,5 +36,5 @@ export class ListagemUsuarioTabelaComponent implements OnInit {
         }
       }
     );
-  }
+  }*/
 }

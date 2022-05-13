@@ -1,4 +1,4 @@
-export const FirebaseConfig = {
+export const firebaseConfig = {
   firebase: {
     apiKey: 'AIzaSyCyGcuDd8ulBaAQppcBXnCLM0zREKDzlBc',
     authDomain: 'social-web-2ac84.firebaseapp.com',
